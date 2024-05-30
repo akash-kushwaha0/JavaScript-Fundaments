@@ -1,3 +1,4 @@
+const prompt=require("prompt-sync")({signit:true});
 let a = prompt("Hey whats you age?");
 a = Number.parseInt(a); // Converting the string to a number
 if(a<0){
